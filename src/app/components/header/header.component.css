@@ -21,6 +21,13 @@
   object-position: center;
    opacity: 0.9;/* Torna o banner mais transparente */
 }
+#logoSemFundo{
+  box-shadow: 10px 10px 100px rgba(10, 10, 10, 0.974);
+  border-radius: 30px;
+  background-color: rgba(0, 0, 0, 0.357);
+  
+
+}
 
 /* Logo Sobreposto ao Banner */
 .logo-overlay {

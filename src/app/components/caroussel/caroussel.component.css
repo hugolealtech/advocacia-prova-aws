@@ -67,30 +67,39 @@
 .caroussel-item p:hover{
   color: #bb935d;
   text-decoration: underline;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  
 }
 
 /* Responsividade para telas pequenas */
 @media (max-width: 768px) {
   .carousel-caption {
-    width: 60%; /* Largura maior para telas menores */
-    font-size: 4vw; /* Fonte maior em telas menores */
+    width: 95%; /* Largura maior para telas menores */
+    font-size: 1vw; /* Fonte maior em telas menores */
   }
 
   .carousel-caption:hover {
-    width: 70%; /* Largura maior no hover */
+    width: 40%; /* Largura maior no hover */
     font-size: 2vw; /* Fonte ainda maior no hover */
   }
 }
 
 @media (max-width: 480px) {
   .carousel-caption {
-    width: 80%; /* Largura ainda maior para telas muito pequenas */
-    font-size: 6vw; /* Fonte muito maior para dispositivos pequenos */
+    width: 20%; /* Largura ainda maior para telas muito pequenas */
+    font-size: 2vw; /* Fonte muito maior para dispositivos pequenos */
+    display: flex;
+    align-items: center;
   }
 
   .carousel-caption:hover {
-    width: 90%; /* Largura muito maior no hover */
-    font-size: 7vw; /* Fonte ainda maior no hover */
+    width: 30%; /* Largura muito maior no hover */
+    height: 5%;
+    display: flex;
+    align-items: center;
+    font-size: 3vw; /* Fonte ainda maior no hover */
   }
 }
 
