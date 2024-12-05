@@ -7,11 +7,12 @@ import { HeaderComponent } from './components/header/header.component';
 import { MatSlideToggleModule } from '@angular/material/slide-toggle';
 import { HomeComponent } from './components/home/home.component';
 import { FooterComponent } from './components/footer/footer.component'
+import { CardsComponent } from './components/cards/cards.component';
 
 @Component({
   selector: 'app-root',
   imports: [
-    RouterOutlet, 
+  
     AboutUsComponent, 
     CarousselComponent, 
     ContactFormComponent, 
@@ -19,6 +20,7 @@ import { FooterComponent } from './components/footer/footer.component'
     MatSlideToggleModule,
     HomeComponent,
     FooterComponent,
+    CardsComponent,
     
   ],
   templateUrl: './app.component.html',

@@ -85,13 +85,20 @@
     font-size: 2vw; /* Fonte ainda maior no hover */
   }
 }
-
+a{
+  text-decoration: none;
+  color: #bb935d;
+}
 @media (max-width: 480px) {
   .carousel-caption {
     width: 20%; /* Largura ainda maior para telas muito pequenas */
     font-size: 2vw; /* Fonte muito maior para dispositivos pequenos */
     display: flex;
     align-items: center;
+  }
+  a{
+    text-decoration: none;
+    color: #bb935d;
   }
 
   .carousel-caption:hover {

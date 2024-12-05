@@ -1,0 +1,9 @@
+<div *ngFor="let cartao of todosCartoes" class="card" style="width: 18rem;">
+    <img [src]="'assets/img/' + cartao.srcImg" class="card-img-top" alt="{{ cartao.titulo }}">
+    <div class="card-body">
+      <h5 class="card-title">{{ cartao.titulo }}</h5>
+      <p class="card-text">{{ cartao.descricao }}</p>
+      <a href="#" class="btn btn-primary">Go somewhere</a>
+    </div>
+  </div>
+  

@@ -7,10 +7,11 @@
 
   <!-- Navbar -->
   <nav class="nav-container">
-    <div class="nav-links">
-      <a href="#sobre-nos">Sobre Nós</a>
-      <a href="#servicos">Serviços</a>
-      <a href="#contato">Contato</a>
-    </div>
+    
+    <a routerLink="/login" class="nav-link">Login</a>
+    <a routerLink="/dashboard" *ngIf="authService.isAuthenticated()" class="nav-link">Dashboard</a>
+
+    <button (click)="onLogout()" *ngIf="authService.isAuthenticated()" class="nav-button">Logout</button>
+    
   </nav>
 </header>
