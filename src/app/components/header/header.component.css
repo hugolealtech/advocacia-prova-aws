@@ -29,10 +29,13 @@
 
 }
 
+  
+
+
 /* Logo Sobreposto ao Banner */
 .logo-overlay {
   position: absolute;
-  max-width: 50%; /* Ajusta o tamanho da logo */
+  max-width: 70%; /* Ajusta o tamanho da logo */
   height: auto;
   z-index: 2; /* Garante que o logo fique acima do banner */
   top: 50%; /* Centraliza verticalmente */
@@ -79,7 +82,7 @@
 
 @media (max-width: 480px) {
   .banner-container {
-    height: 150px; /* Altura ainda menor para celulares */
+    height: 100%; /* Altura ainda menor para celulares */
   }
 
   .logo-overlay {
